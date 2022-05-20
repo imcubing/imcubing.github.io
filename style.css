@@ -6,7 +6,7 @@ body {
 .sidebar{
    position:absolute;
    background: #000000;
-   margin-top:-100px;
+   margin-top:5px;
    padding-top: 30px;
    padding-left: 0px;
    left: 0;
@@ -20,10 +20,13 @@ body {
    width: 100%;
    line-height:22px;
    text-decoration:none;
-   padding-left:25px;
+   padding-left:-30px;
    box-sizing:border-box;
    transition:0.5s;
    transition-property:#2C3435;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-align: center;
 }
 .sidebar .checked {
    position:relative;
@@ -31,7 +34,7 @@ body {
 }
 
 .sidebar a:hover{
-   background:#15B1CD;
+   background:#1100ff;
 }
 .sidebar i{
    padding-right:10px;

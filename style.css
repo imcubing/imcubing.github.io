@@ -1,0 +1,98 @@
+body {
+   background-color: #ffffff;
+   color: rgb(0, 0, 0);
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sidebar{
+   position: absolute;
+   background: #666666;
+   margin-top: -10px;
+   padding-top: 30px;
+   padding-left: 0px;
+   left: 0;
+   width: 300px;
+   height:1000%;
+}
+.sidebar a{
+   position: relative;
+   color: #fff;
+   display: block;
+   width: 100%;
+   line-height: 22px;
+   text-decoration: none;
+   padding-left: -30px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   transition-property: #2C3435;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   text-align: center;
+}
+.sidebar .checked {
+   position: relative;
+   color: rgb(255, 230, 4);
+}
+.sidebar li a {
+   color: rgb(255, 255, 255);
+}
+.sidebar li a:hover{
+   color: #0400ff;
+}
+.sidebar i{
+   padding-right: 10px;
+}
+.sidebar image {
+   position: relative;
+   color: #ffffff;
+   display: block;
+   width: 50%;
+   line-height: 22px;
+   padding-left: 50px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   transition-property: #2C3435;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.content {
+   margin-left: 300px;
+   padding-top: 0px;
+   padding-left: 0px;
+}
+.content.p {
+   padding-top: -50px;
+}
+.image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.content .rectangle {
+   padding-top: 20px;
+   padding-bottom: 5px;
+   padding-left: 150px;
+   width: 300px;
+   height: 70px;
+   border: 1px solid #000;
+   position: relative;
+   text-align: center;
+   background-color: #000000;
+}
+.content .gallery {
+   margin: 5px;
+   border: 1px solid #ffffff;
+   float: left;
+   width: 180px;
+}
+.content .gallery:hover {
+   border: 1px solid rgb(0, 0, 0);
+}
+.content .gallery img {
+   width: 100%;
+   height: auto;
+}
+div.desc {
+   padding: 15px;
+   text-align: center;
+}
